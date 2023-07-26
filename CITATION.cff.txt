@@ -1,11 +1,1 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Khadieva"
-  given-names: "Aliya"
-  orcid: "http://orcid.org/0000-0003-4125-2151"
-title: "Optimal Parameters Computing Code"
-version: 1.0.0
-doi: 10.5281/khadi.1234
-date-released: 2023-17-26
-url: "https://github.com/aliyakhadi/Parameters_counting"
+
