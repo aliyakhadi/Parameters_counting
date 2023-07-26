@@ -50,16 +50,6 @@ for p in (
 773,1013
 
 ):
-#for p in (1021, 1429):
-
-   # print(datetime.datetime.now())
-    #Koriginal = util.initialK(independentKsize)
-    #minError = 2
-    #minErrorK = KoriginalA1
-    #setParamsForPseudoAlgo(Koriginal, 0, 0, p,restKsize)
-    #minErrorKPseudo = minErrorK
-    #minErrorPseudo = minError
- #   print(datetime.datetime.now())
     KPseudo, minErrorPseudo =  gradDescendeMethod.PseudoResultOfCoordinateDescend(d,p,eps)
     Koriginal, errOriginal = gradDescendeMethod.ResultOfCoordinateDescend(d,p,eps,KPseudo)
 
